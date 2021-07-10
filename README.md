@@ -8,11 +8,11 @@ A paint tool created using **canvas api**
 
 ### Demo Drawings
 
-<img src ="https://github.com/sameerad2001/4.-Paint/blob/master/public/img/Demo/drawing%203" width = "250">
+<img src ="https://github.com/sameerad2001/4.-Paint/blob/master/public/img/Demo/drawing%203.png" width = "250">
 
-<img src ="https://github.com/sameerad2001/4.-Paint/blob/master/public/img/Demo/drawing%202" width = "250">
+<img src ="https://github.com/sameerad2001/4.-Paint/blob/master/public/img/Demo/drawing%202.png" width = "250">
 
-<img src ="https://github.com/sameerad2001/4.-Paint/blob/master/public/img/Demo/drawing%202" width = "250">
+<img src ="https://github.com/sameerad2001/4.-Paint/blob/master/public/img/Demo/drawing%201.png" width = "250">
 
 ### Start Up
 - Clone repo
