@@ -1,0 +1,22 @@
+{
+  "name": "4.-paint",
+  "version": "1.0.0",
+  "description": "A paint tool built using canvas api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerad2001/4.-Paint.git"
+  },
+  "author": "Sameer Ahmed <sameerad2001@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerad2001/4.-Paint/issues"
+  },
+  "homepage": "https://github.com/sameerad2001/4.-Paint#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

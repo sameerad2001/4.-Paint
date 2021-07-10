@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/sam.ico">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <title>Paint</title>
+</head>
+
+<body class="dark">
+
+    <h1 class="big_head">Paint</h1>
+
+    <div class="tool_pallet">
+        <div class="row">
+
+            <div class="col">
+                <button class="btn btn_white" id="brush"> <span id="brush_text" class="active">
+                    Brush <i class="fas fa-pencil-alt"></i></span> 
+                </button>
+            </div>
+
+            <div class="col">
+                <button class="btn btn_white" id="eraser"> <span id="eraser_text">
+                    Eraser <i class="fas fa-eraser"></i>   </span>
+                </button>
+            </div>
+
+            <div class="col"> Brush Size <input class="brush_size" min="1" max="150" value="10" type="range" name="" id="brush_size"> </div>
+
+            <div class="col"> Color
+                <input class="brush_color" type="color" name="brush_color" value="#1cfdd0" id="brush_color">
+            </div>
+
+            <div class="col">
+                <button class="btn btn_white" id="brush_type" value="round"><span id="round" class="active">Round</span>/<span id="square">Square </span> <i class="fas fa-shapes"></i></button>
+            </div>
+
+            <div class="col">
+                <button class="btn btn_white" id="clear">Clear <i class="fas fa-broom"></i></button>
+            </div>
+
+            <div class="col">
+                <button class="btn btn_white" id="light_dark">Switch Modes <i class="fas fa-adjust"></i></button>
+            </div>
+
+            <div class="col hidden_info">
+                <button class="btn btn_white" id="download">Download <i class="fas fa-cart-arrow-down"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+
+</body>
+
+<footer>
+    &copy;
+    <a href="https://github.com/sameerad2001" id="footer_link"> <strong>Sameer Ahmed</strong></a> <span id="footer_date"></span>
+</footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/6d874a5318.js" crossorigin="anonymous"></script>
+
+<!-- General Script -->
+<script src="scripts/index.js"></script>
+
+<!-- Drawing Script -->
+<script src="scripts/draw.js"></script>
+
+</html>

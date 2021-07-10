@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Light and Dark Mode */
+
+.light {
+    background-image: linear-gradient(to top right, #DEFCF9, #F4EEFF);
+    color: black;
+}
+
+.dark {
+    /* background-image: linear-gradient(to top right, #384259, #F73859); */
+    background-image: linear-gradient(to top right, #086972, #142850);
+    color: white;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    margin: 0.5rem;
+}
+
+.active {
+    color: #F73859;
+}
+
+.big_head {
+    font-family: 'Finger Paint', cursive;
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+.brush_color {
+    margin: 0rem 0.5rem;
+}
+
+.brush_size {
+    margin: 0rem 0.5rem;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.btn_black {
+    color: black
+}
+
+.btn_black:hover {
+    color: #F73859;
+}
+
+.btn_white {
+    color: white
+}
+
+.btn_white:hover {
+    color: #30E3CA;
+}
+
+.hidden_info {
+    display: none;
+}
+
+.tool_pallet {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 1.3%;
+}
+
+#canvas {
+    /* border: 2px solid black; */
+    background-color: white;
+}
