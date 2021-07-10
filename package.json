@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sameerad2001/4.-Paint#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.11"
   }
 }
