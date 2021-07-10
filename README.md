@@ -18,7 +18,7 @@ A paint tool created using **canvas api**
 - Clone repo
 - git bash command :  
     ```bash 
-    $ nom install
+    $ npm install
     $ node app.js
     ```
 <hr />
